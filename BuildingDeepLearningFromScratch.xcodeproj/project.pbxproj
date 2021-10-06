@@ -13,6 +13,7 @@
 		AC81504F270D674D002B98D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC81504E270D674D002B98D9 /* Preview Assets.xcassets */; };
 		AC815051270D674D002B98D9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC815050270D674D002B98D9 /* Persistence.swift */; };
 		AC815054270D674D002B98D9 /* BuildingDeepLearningFromScratch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC815052270D674D002B98D9 /* BuildingDeepLearningFromScratch.xcdatamodeld */; };
+		AC81505D270D6BE0002B98D9 /* Perceptron.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81505C270D6BE0002B98D9 /* Perceptron.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC815050270D674D002B98D9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AC815053270D674D002B98D9 /* BuildingDeepLearningFromScratch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuildingDeepLearningFromScratch.xcdatamodel; sourceTree = "<group>"; };
 		AC815055270D674D002B98D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC81505C270D6BE0002B98D9 /* Perceptron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perceptron.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		AC815046270D674A002B98D9 /* BuildingDeepLearningFromScratch */ = {
 			isa = PBXGroup;
 			children = (
+				AC81505B270D6A6A002B98D9 /* 2_Perceptron */,
 				AC815047270D674A002B98D9 /* BuildingDeepLearningFromScratchApp.swift */,
 				AC815049270D674A002B98D9 /* ContentView.swift */,
 				AC81504B270D674D002B98D9 /* Assets.xcassets */,
@@ -73,6 +76,14 @@
 				AC81504E270D674D002B98D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC81505B270D6A6A002B98D9 /* 2_Perceptron */ = {
+			isa = PBXGroup;
+			children = (
+				AC81505C270D6BE0002B98D9 /* Perceptron.swift */,
+			);
+			path = 2_Perceptron;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 				AC815051270D674D002B98D9 /* Persistence.swift in Sources */,
 				AC81504A270D674A002B98D9 /* ContentView.swift in Sources */,
 				AC815048270D674A002B98D9 /* BuildingDeepLearningFromScratchApp.swift in Sources */,
+				AC81505D270D6BE0002B98D9 /* Perceptron.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
